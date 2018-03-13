@@ -24,6 +24,7 @@
         <meta name="unknownrobot" content="index,follow,all" />
         <meta name="classification" content="commercial" />
         <meta name="distribution" content="global" />
+        <meta property="og:image" content="<?= DIR; ?>/assets/img/site.png" />
 
         <?php wp_head(); ?>
     </head>
