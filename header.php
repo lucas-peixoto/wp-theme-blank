@@ -32,5 +32,7 @@
         <header class="header">
             <div class="container">
 
+            <?php get_template_part( 'templates/menu' ); ?>
+
           	</div>
         </header>
