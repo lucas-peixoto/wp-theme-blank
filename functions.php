@@ -19,7 +19,7 @@ add_action( 'wp_enqueue_scripts', 'add_theme_scripts' );
 add_theme_support( 'html5', array( 'comment-list', 'comment-form', 'search-form', 'gallery', 'caption' ) );
 add_theme_support( 'post-thumbnails' );
 
-require_once('./class/wp_bootstrap_navwalker.php');
+require_once('wp_bootstrap_navwalker.php');
 
 /**
  *
