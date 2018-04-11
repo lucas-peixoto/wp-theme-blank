@@ -24,7 +24,12 @@
         <meta name="unknownrobot" content="index,follow,all" />
         <meta name="classification" content="commercial" />
         <meta name="distribution" content="global" />
+        
+        <?php if (has_post_thumbnail()) : ?>
+        <meta property="og:image" content="<?= get_the_post_thumbnail_url(null, 'medium', ''); ?>" />
+        <?php else : ?>
         <meta property="og:image" content="<?= DIR; ?>/assets/img/site.png" />
+        <?php endif; ?>
 
         <?php wp_head(); ?>
     </head>
