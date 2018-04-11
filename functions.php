@@ -47,9 +47,14 @@ function wp_pagination( $query=null, $wpcpn_posts=null )
     );
     if ( $max_num_pages > 1 && $paginate ) {
         echo '<nav aria-label="Page navigation example">';
-        echo '<ul class="pagination">';
+        echo '<ul class="pagination justify-content-center">';
         foreach ( $paginate as $page ) {
-            echo '<li class="page-item">' . $page . '</li>';
+		$active = strpos($page, 'current') !== false ? 'active' : '';
+		$page = str_replace('span', 'a', $page);
+		$page = str_replace('page-numbers', 'page-link', $page);
+		$page = str_replace('current', '', $page);
+
+		echo '<li class="page-item '. $active .'">' . $page . '</li>';
         }
         echo '</ul>';
         echo '</nav>';
