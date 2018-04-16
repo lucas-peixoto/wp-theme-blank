@@ -17,9 +17,6 @@
                 'walker'            => new wp_bootstrap_navwalker())
             );
         ?>
-
-        <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <?php get_template_part('templates/menu'); ?>
-        </div> -->
+        
     </nav>
 </div>
