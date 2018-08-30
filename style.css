@@ -3,6 +3,12 @@ Theme Name: ---
 Author: Lucas Peixoto
 Version: 0.5
 */
+.the_content::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
 .alignleft {
   float: left;
   margin-right: 1.5em;
