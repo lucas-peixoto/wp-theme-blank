@@ -13,7 +13,6 @@ Version: 0.5
   float: left;
   margin-right: 1.5em;
 }
-
 @media (max-width: 767px) {
   .alignleft {
     min-width: 100%;
@@ -29,7 +28,6 @@ Version: 0.5
   float: right;
   margin-left: 1.5em;
 }
-
 @media (max-width: 767px) {
   .alignright {
     min-width: 100%;
@@ -47,7 +45,6 @@ Version: 0.5
   margin-left: auto;
   margin-right: auto;
 }
-
 @media (max-width: 767px) {
   .aligncenter {
     min-width: 100%;
@@ -57,4 +54,5 @@ Version: 0.5
     height: auto;
   }
 }
+
 /*# sourceMappingURL=style.css.map */
