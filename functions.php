@@ -17,7 +17,7 @@ add_theme_support( 'html5', array( 'comment-list', 'comment-form', 'search-form'
 add_theme_support( 'post-thumbnails' );
 add_post_type_support( 'page', 'excerpt' );
 
-require_once( 'wp_bootstrap_navwalker.php' );
+require_once( 'helpers/wp_bootstrap_navwalker.php' );
 require_once( 'helpers/max_charlength.php' );
 require_once( 'helpers/custom_post_types.php' );
 
